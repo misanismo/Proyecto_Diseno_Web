@@ -5,7 +5,7 @@ body{
 #logout{
 	width: 175px;
 	height: 75px;
-	margin-top: -250px;
+	margin-top: -270px;
 	margin-left: 1000px;
 	background-color: #FFFFFF;
 	border-radius: 65px;
@@ -14,6 +14,11 @@ body{
 	border-color: #000000;
 	text-align: center;
 	font-size: 22px;
+}
+
+img{
+	width:175px;
+	height:175px;
 }
 
 h1{

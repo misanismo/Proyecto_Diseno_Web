@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Perfiles UTN - Area Administrativa</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" type="text/css" href="style8elim.css">
+	<base href="C:\PROYECTO1\">
+    <script type="text/javascript" src="pestanna.js"></script>
+</head>
+<body>
+	<header>
+		<img src="image1.png">
+	<h1>
+		UTN Perfiles
+	</h1>
+	<h2>
+		Dashboard
+	</h2>
+	</header>
+	<div id="logout">
+		<section>
+			<article>
+				<p>Hola Admin <a href="index1.html">  Salir</a></p>
+			</article>
+		</section>	
+	</div>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<div id="dashboard">
+            <table class="tabs" data-min="0" data-max="6">
+                <tr>
+                    <th class="tabcks">&nbsp;</th>
+                    <th class="tabck" id="tabck-0" onclick="activarTab(this)">DashBoard</th>
+                    <th class="tabcks">&nbsp;</th>
+                    <th class="tabck" id="tabck-1" onclick="activarTab(this)">Carreras</th>
+                    <th class="tabcks">&nbsp;</th>
+                    <th class="tabck" id="tabck-2" onclick="activarTab(this)">Estudiantes</th>
+                    <th class="tabcks">&nbsp;</th>
+                    <th class="tabck" id="tabck-3" onclick="activarTab(this)">Usuarios</th>
+                </tr>
+                <tr class="filadiv">
+                    <td colspan="6" id="tab-0">
+                        <div class="tabdiv" id="tabdiv-0">
+                        	<h4>Ultimas Busquedas Realizadas</h4>
+	                        <ul>
+		                    	<li>2014/06/01 - AngularJS</li>
+		                    	<li>2014/06/01 - Databases,P</li>
+		                    	<li>2014/06/02 - PHP, Code I</li>
+		                    	<li>2014/05/25 - Rudy on Rail</li>
+	                        </ul>
+                            	
+                        </div>
+                        <div class="tabdiv" id="tabdiv-1">
+                            
+                              
+                                <table class="tabla" id="tabla-1">
+                                 <pre>Codigo    Nombre</pre>
+                                 <hr />
+                                    <tr id="columna-2">
+                                        <td>ISW</td>
+                                        <td>Ingenieria En Software</td>
+                                    </tr>
+                                    <tr id="columna-3">
+                                        <td>COFI</td>
+                                        <td>Contabilidad y Finanzas</td>
+                                    </tr>
+                                    <tr id "columna-4">
+                                        <td>ADM</td>
+                                        <td>Comercio Exterior</td>
+                                    </tr>
+                                </table>
+                            
+                        </div>
+                        <div class="tabdiv" id="tabdiv-2">
+                            
+                            <h4>Eliminar Estudiante</h4>
+                                
+                                <br />
+
+                                <p id = "pestagreg">¡¿Desea Realmente Eliminar El Estudiante?!</p>
+
+                                <div id = "btneditar">
+                            
+                                <input name ="boton" type= "submit" value = "Si" onclick="location='index9listelim.html'">
+
+                                <input name ="boton" type= "submit" value = "No" onclick="location='index2.html'">
+                                </div>
+                        </div>
+                        <div class="tabdiv" id="tabdiv-3">
+                            <p>TAB USUARIOS</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+body{
+    background-color: #98CFF4;
+
+}
+#logout{
+    width: 175px;
+    height: 75px;
+    margin-top: -220px;
+    margin-left: 900px;
+    background-color: #FFFFFF;
+    border-radius: 65px;
+    padding: 20px;
+    box-shadow: 0px 0px 2.5px rgba(0,0,0,0.9);
+    border-color: #000000;
+    text-align: center;
+    font-size: 22px;
+}
+
+img{
+    width:125px;
+    height:125px;
+    margin-left: 25px;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+    text-decoration: underline;
+}
+
+h4{
+    text-decoration: underline;
+    color: blue;
+    font-family: georgia;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+
+
+table#space 
+{
+     border-collapse: collapse;
+     border-spacing: 10px 5px;
+}
+#dashboard
+{
+    
+    width: 500px;
+    margin-top: -50px;
+    margin-left: -20px;
+    padding: 1em;
+    border-radius: 1px;
+}
+#tabla
+{
+    width:50px;
+    border:1px;
+    alignment-adjust: central;
+    border-collapse: collapse;
+    border-spacing: 10px 5px;
+    border:#000000;
+    background: #cfccfe;
+}
+
+.tabla{
+    color: black;
+    width: 300px;
+    background-color: white;
+    margin-left: -60px;
+    font-family: Georgia;
+}
+
+#columna-1
+{
+    alignment-adjust: central;
+    background: #ffffff;
+
+}
+#columna-2
+{
+    alignment-adjust: central; 
+    background: #ffffff;
+
+}
+#columna-3
+{
+    alignment-adjust:central;
+    background: #ffffff;
+
+}
+#columna-4
+{
+    alignment-adjust:central;
+    background: #ffffff;
+
+}
+th.tabck {
+    border: white solid 2px;
+    border-bottom: 0;
+    border-radius: 1em 1em 0 0;
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    font-family: georgia;
+    font-size: 15px;
+}
+
+
+table.tabs[data-filas] th.tabck {
+    box-shadow: 0 -0.15em 0.1em 0 white;
+}
+
+tr.filadiv {
+    color: black;
+    font-family: Georgia;
+
+}
+/* El ancho y alto de los div.tabdiv se configuran
+en cada aplicación */
+div.tabdiv {
+    background-color: white;
+    margin-left: 9px;
+    padding: 4.4em;
+    overflow: auto;
+    display: none;
+    width: 90%;
+    height: auto;
+}
+
+div ul{
+    margin-left: -70px;
+    
+}  
+
+pre{
+    font-family: Georgia;
+    margin-left: -59px;
+    margin-top: -50px;
+    color: blue;
+}
+
+hr{
+    margin-left: -59px;
+
+}
+
+ #btneditar{
+    margin-left: -50px;
+ }
+
+ #frm{
+    margin-top: -10px;
+    margin-left: -30px;
+ }
+
+ #peditest{
+    color: blue;
+ }
+
+ #pestagreg{
+    margin-left: -40px;
+    font-style: italic;
+    color: gray;
+    font-weight: bold;
+ }
+
+ #btns1{
+    text-align: right;
+    margin-left: 30px;
+    margin-top: -110px;
+    height: 20px;
+}
+
+#btns2{
+    text-align: right;
+    margin-left: 30px;
+    height: 20px;
+    
+}
+
+#btns3{
+    text-align: right;
+    margin-left: 30px;
+    height: 20px;
+ 
+}

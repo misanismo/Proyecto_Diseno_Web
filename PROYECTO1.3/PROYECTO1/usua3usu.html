@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Perfiles UTN - Area Administrativa</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" type="text/css" href="style3est.css">
+	<base href="C:\PROYECTO1\">
+    <script type="text/javascript" src="pestanna.js"></script>
+</head>
+<body>
+	<header>
+		<img src="image1.png">
+	<h1>
+		UTN Perfiles
+	</h1>
+	<h2>
+		Dashboard
+	</h2>
+	</header>
+	<div id="logout">
+		<section>
+			<article>
+				<p>Hola Admin <a href="index1.html">  Salir</a></p>
+			</article>
+		</section>	
+	</div>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<div id="dashboard">
+            <table class="tabs" data-min="0" data-max="6">
+                <tr>
+                    <th class="tabcks">&nbsp;</th>
+                    <th class="tabck" id="tabck-0" onclick="activarTab(this)">DashBoard</th>
+                    <th class="tabcks">&nbsp;</th>
+                    <th class="tabck" id="tabck-1" onclick="activarTab(this)">Carreras</th>
+                    <th class="tabcks">&nbsp;</th>
+                    <th class="tabck" id="tabck-2" onclick="activarTab(this)">Estudiantes</th>
+                    <th class="tabcks">&nbsp;</th>
+                    <th class="tabck" id="tabck-3" onclick="activarTab(this)">Usuarios</th>
+                </tr>
+                <tr class="filadiv">
+                    <td colspan="6" id="tab-0">
+                        <div class="tabdiv" id="tabdiv-0">
+                        	<h4>Ultimas Busquedas Realizadas</h4>
+	                        <ul>
+		                    	<li>2014/06/01 - AngularJS</li>
+		                    	<li>2014/06/01 - Databases,P</li>
+		                    	<li>2014/06/02 - PHP, Code I</li>
+		                    	<li>2014/05/25 - Rudy on Rail</li>
+	                        </ul>
+                            	
+                        </div>
+                        <div class="tabdiv" id="tabdiv-1">
+                            
+                              
+                                <h4>Carreras</h4>
+                            <ul id="h">
+                                <li><a href="carr3carr.html"> Ing.Software-ISW</a></li>
+                                <br />
+                                <li><a href="carr3carr.html"> Contabilidad-Cont</a></li>
+                                <br />
+                                <li><a href="carr3carr.html"> Administracion-Admin</a></li>
+                            </ul>
+
+                            <div id = "btns1">
+
+                                <input name ="boton" type= "submit" value = "Nuevo" onclick="location='carr6crearcarr.html'">
+                                
+                                <input name ="boton" type= "submit" value = "Edit" onclick="location='carr4editcarr.html'">
+                            
+                                <input name ="boton" type= "submit" value = "Elim" onclick="location='carr8elim.html'">
+
+                            </div>
+
+                            <br />
+
+                            <div id = "btns2">
+                                <input name ="boton" type= "submit" value = "Edit" onclick="location='carr4editcarr.html'">
+                            
+                                <input name ="boton" type= "submit" value = "Elim" onclick="location='carr8elim.html'">
+
+                            </div>
+
+                            <br />
+
+                            <div id = "btns3">
+                                <input name ="boton" type= "submit" value = "Edit" onclick="location='carr4editcarr.html'">
+                            
+                                <input name ="boton" type= "submit" value = "Elim" onclick="location='carr8elim.html'">
+
+                            </div>
+                            
+                        </div>
+                        <div class="tabdiv" id="tabdiv-2">
+                            
+                            <h4>Estudiantes</h4>
+                            <ul id="h">
+                                <li><a href="index3est.html"> Pedro Castro Montero</a></li>
+                                <br />
+                                <li><a href="index3est.html"> Jose Rojas Rodriguez</a></li>
+                                <br />
+                                <li><a href="index3est.html"> Carlos Solis Espinoza</a></li>
+                            </ul>
+
+                            <div id = "btns1">
+
+                                <input name ="boton" type= "submit" value = "Nuevo" onclick="location='index6crearest.html'">
+                                
+                                <input name ="boton" type= "submit" value = "Edit" onclick="location='index4editest.html'">
+                            
+                                <input name ="boton" type= "submit" value = "Elim" onclick="location='index8elim.html'">
+
+                            </div>
+
+                            <br />
+
+                            <div id = "btns2">
+                                <input name ="boton" type= "submit" value = "Edit" onclick="location='index4editest.html'">
+                            
+                                <input name ="boton" type= "submit" value = "Elim" onclick="location='index8elim.html'">
+
+                            </div>
+
+                            <br />
+
+                            <div id = "btns3">
+                                <input name ="boton" type= "submit" value = "Edit" onclick="location='index4editest.html'">
+                            
+                                <input name ="boton" type= "submit" value = "Elim" onclick="location='index8elim.html'">
+
+                            </div>
+                        </div>
+                        <div class="tabdiv" id="tabdiv-3">
+                            <img id ="dos" src="image2.png">
+                            <ul>
+                            
+                                <li>Nombre: Jose Carlos</li>
+                                <li>Apellidos: Arroyo</li>
+                                <li>Usuario: joseca12</li>
+                                <li>Contraseña: ********</li>
+                                <li>Role: Director de Carrera</li>
+                            </ul>
+                                
+                                <div id = "btn">
+                                <input name ="boton" type= "submit" value = "Editar" onclick="location='usua4editusu.html'">
+                            
+                                <input name ="boton" type= "submit" value = "Atrás" onclick="location='usua2list.html'">
+                                </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+</body>
+</html>

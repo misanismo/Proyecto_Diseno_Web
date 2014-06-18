@@ -1,0 +1,23 @@
+body{
+	background-color: #98CFF4;
+}
+
+#principal{
+	width: 300px;
+	height: 375px;
+	margin-top: 100px;
+	margin-left:500px;
+	background-color: #FFFFFF;
+	color: #000000;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	border-color: #1E00FF;
+	text-align: center;
+}
+
+img{
+	width:100px;
+	height:100px;
+
+}

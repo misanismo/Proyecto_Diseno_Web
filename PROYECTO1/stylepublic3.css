@@ -1,0 +1,74 @@
+body
+{	
+	font-family: "Helvetica",Arial;
+	background-color: #98CFF4;
+  background-image: url("C:/PROYECTO1/fondo.png");
+}
+
+h1
+{
+	color:#0073FF;
+  margin-left: 90px;
+  font-size: 22px;
+}
+
+#textoPr
+{
+	width: 450px;
+	height: 600px;
+	margin-top: 100px;
+	margin-left: 375px;
+	background-color: #FFFFFF;
+	color: #121212;
+	text-align: left;
+	border-radius: 20px;
+	padding-top: 40px;
+  padding-left: 85px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+a
+{
+	color:#121212;
+	font-weight: bold;
+}
+img 
+{
+  	border: 1px solid #323232;
+  	padding: 5px;
+  	border-radius: 5px;
+  	box-shadow: 3px 3px 5px rgba(50, 50, 50, .5);
+  	margin-left: 110px;
+  	margin-top: 30px;
+  	position: relative;
+ 
+}
+
+#dos{
+  height: 75px;
+  width: 75px;
+  margin-left: 135px;
+}
+
+#msj{
+    width: 175px;
+    height: 75px;
+    margin-top: -140px;
+    margin-left: 1000px;
+    background-color: #FFFFFF;
+    border-radius: 65px;
+    padding: 20px;
+    box-shadow: 0px 0px 2.5px rgba(0,0,0,0.9);
+    border-color: #000000;
+    text-align: center;
+    font-size: 22px;
+
+
+}
+ input{
+  margin-left: 150px;
+  margin-top: 5px;
+ }
+
+ #lista{
+  margin-left: -80px;
+ }

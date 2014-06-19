@@ -3,7 +3,7 @@
 <head>
 	<title>Perfiles UTN - Area Administrativa</title>
 	<meta charset='utf-8'>
-	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="style11crenuevoedit.css">
 	<base href="C:\PROYECTO1\">
     <script type="text/javascript" src="pestanna.js"></script>
 </head>
@@ -57,43 +57,27 @@
                         </div>
                         <div class="tabdiv" id="tabdiv-1">
                             
-                              
-                                <h4>Carreras</h4>
-                            <ul id="h">
-                                <li><a href="carr3carr.html"> Ing.Software-ISW</a></li>
+                            <h4>Crear Carrera</h4>
+                                <form id = "frm" method="post" action="index2.html">
+                        
+                                    <label for = "nombre">Nombre: </label>
+                                    <input type = "text" id= "nombre" name ="nombre"> 
+                                    <br />
+                                    <label for = "codigo">Codigo:&nbsp&nbsp</label>
+                                    <input type = "text" id= "codigo" name ="codigo">
+                                    
+                                </form> 
                                 <br />
-                                <li><a href="carr3carr.html"> Contabilidad-Cont</a></li>
+                                <div id = "btneditar">
+                                <input name ="boton" type= "submit" value = "Cancelar" onclick="location='carr2list.html'">
+                            
+                                <input name ="boton" type= "submit" value = "Guardar" onclick="location='carr5listnueva.html'">
+
+                                <input name ="boton" type= "submit" value = "Guardar y Nuevo" onclick="location='carr7crenuevaguar.html'">
+                                </div>
+
                                 <br />
-                                <li><a href="carr3carr.html"> Administracion-Admin</a></li>
-                            </ul>
-
-                            <div id = "btns1">
-
-                                <input name ="boton" type= "submit" value = "Nuevo" onclick="location='carr6crearcarr.html'">
-                                
-                                <input name ="boton" type= "submit" value = "Edit" onclick="location='carr4editcarr.html'">
-                            
-                                <input name ="boton" type= "submit" value = "Elim" onclick="location='carr8elim.html'">
-
-                            </div>
-
-                            <br />
-
-                            <div id = "btns2">
-                                <input name ="boton" type= "submit" value = "Edit" onclick="location='carr4editcarr.html'">
-                            
-                                <input name ="boton" type= "submit" value = "Elim" onclick="location='carr8elim.html'">
-
-                            </div>
-
-                            <br />
-
-                            <div id = "btns3">
-                                <input name ="boton" type= "submit" value = "Edit" onclick="location='carr4editcarr.html'">
-                            
-                                <input name ="boton" type= "submit" value = "Elim" onclick="location='carr8elim.html'">
-
-                            </div>
+                                <p id = "pestagreg">¡Carrera Editada Exitosamente!</p>
                             
                         </div>
                         <div class="tabdiv" id="tabdiv-2">
@@ -172,6 +156,7 @@
                                 <input name ="boton" type= "submit" value = "Elim" onclick="location='usua8elim.html'">
 
                             </div>
+                        </div>
                         </div>
                     </td>
                 </tr>

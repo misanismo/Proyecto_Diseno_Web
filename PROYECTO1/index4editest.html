@@ -3,7 +3,7 @@
 <head>
 	<title>Perfiles UTN - Area Administrativa</title>
 	<meta charset='utf-8'>
-	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="style4editest.css">
 	<base href="C:\PROYECTO1\">
     <script type="text/javascript" src="pestanna.js"></script>
 </head>
@@ -97,43 +97,63 @@
                             
                         </div>
                         <div class="tabdiv" id="tabdiv-2">
+                            
+                            <h4>Editar Estudiante</h4>
+                                <form id = "frm" method="post" action="index2.html">
+                        
+                                    <label for = "nombre">Nombre:&nbsp &nbsp &nbsp &nbsp &nbsp </label>
+                                    <input type = "text" id= "nombre" name ="nombre" value="Pedro"> 
+                                    <br />
+                                    <label for = "apellidos">Apellidos:&nbsp &nbsp &nbsp &nbsp </label>
+                                    <input type = "text" id= "apellidos" name ="apellidos" value="Castro">
+                                    <br />
+                                    <label for = "cedula">Cedula:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+                                    <input type = "text" id= "cedula" name ="cedula" value="2-374-546"> 
+                                    <br />
+                                    <label for = "carrera">Carrera:&nbsp &nbsp &nbsp &nbsp &nbsp </label>
+                                    <input type = "text" id= "carrera" name ="carrera" value="ISW"> 
+                                    <br />
+                                    <label for = "niving">Niv.Ingles: &nbsp &nbsp &nbsp</label>
+                                    <input type = "text" id= "niving" name ="niving" value="Avanzado"> 
+                                    <br />
+                                    <label for = "skills">Skills:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </label>
+                                    <input type = "text" id= "skills" name ="skills" value="Responsable, Trabajo en Equipo">
+                                    <br />
+                                    <label for = "prdesa">Proyectos Desarrollados: </label>
+                                    <br />
+                                    <label for = "curso">Curso:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+                                    <input type = "text" id= "curso" name ="curso" value="Diseño Web">
+                                    <br />
+                                    <label for = "dur">Duracion:&nbsp &nbsp &nbsp &nbsp &nbsp</label>
+                                    <input type = "text" id= "dur" name ="dur" value="22 dias">
+                                    <br />
+                                    <label for = "tec">Tec.Usadas:&nbsp &nbsp &nbsp</label>
+                                    <input type = "text" id= "tec" name ="tec" value="SublimeText(software)">
+                                    <br />
+                                    <label for = "desc">Desc.Proyecto:</label>
+                                    <input type = "text" id= "desc" name ="desc" value="Diseñar pagina web">
+                                    <br />
+                                    <label for = "fecha">Fecha:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+                                    <input type = "text" id= "fecha" name ="fecha" value="22 junio 2014">
+                                    <br />
+                                    <label for = "cali">Calificacion:&nbsp &nbsp &nbsp</label>
+                                    <input type = "text" id= "cali" name ="cali" value="95%">
+                                    <br />
+                                    <label for = "coment">Com.Profesor:</label>
+                                    <input type = "text" id= "coment" name ="coment" value="Estudiante Esforzado, buen investigador">
 
-                            <h4>Estudiantes</h4>
-                            <ul id="h">
-                                <li><a href="index3est.html"> Pedro Castro Montero</a></li>
+                                    
+                                </form> 
                                 <br />
-                                <li><a href="index3est.html"> Jose Rojas Rodriguez</a></li>
-                                <br />
-                                <li><a href="index3est.html"> Carlos Solis Espinoza</a></li>
-                            </ul>
-
-                            <div id = "btns1">
-
-                                <input name ="boton" type= "submit" value = "Nuevo" onclick="location='index6crearest.html'">
-                                
-                                <input name ="boton" type= "submit" value = "Edit" onclick="location='index4editest.html'">
+                                <div id = "btneditar">
+                                <input name ="boton" type= "submit" value = "Atras" onclick="location='index3est.html'">
                             
-                                <input name ="boton" type= "submit" value = "Elim" onclick="location='index8elim.html'">
+                                <input name ="boton" type= "submit" value = "Guardar" onclick="location='index10listedit.html'">
 
-                            </div>
+                                <input name ="boton" type= "submit" value = "Guardar y Nuevo" onclick="location='index11crenuevoedit.html'">
 
-                            <br />
-
-                            <div id = "btns2">
-                                <input name ="boton" type= "submit" value = "Edit" onclick="location='index4editest.html'">
-                            
-                                <input name ="boton" type= "submit" value = "Elim" onclick="location='index8elim.html'">
-
-                            </div>
-
-                            <br />
-
-                            <div id = "btns3">
-                                <input name ="boton" type= "submit" value = "Edit" onclick="location='index4editest.html'">
-                            
-                                <input name ="boton" type= "submit" value = "Elim" onclick="location='index8elim.html'">
-
-                            </div>
+                                <input name ="boton" type= "submit" value = "Eliminar" onclick="location='index8elim.html'">
+                                </div>
                         </div>
                         <div class="tabdiv" id="tabdiv-3">
                             <h4>Usuarios</h4>

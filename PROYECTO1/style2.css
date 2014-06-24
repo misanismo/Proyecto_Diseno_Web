@@ -5,7 +5,7 @@ Esta parte se particulariza para cada contenedor. (IE8 necesita
 
 body{
     background-color: #98CFF4;
-    background-image: url("C:/PROYECTO1/fondo.png");
+    background-image: url("/PROYECTO1/fondo.png");
 
 }
 #logout{
@@ -117,9 +117,7 @@ th.tabck {
 }
 
 
-table.tabs[data-filas] th.tabck {
-    box-shadow: 0 -0.15em 0.1em 0 white;
-}
+
 
 tr.filadiv {
     color: black;
